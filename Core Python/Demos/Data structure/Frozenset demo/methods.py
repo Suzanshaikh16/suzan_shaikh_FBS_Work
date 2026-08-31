@@ -1,0 +1,20 @@
+fs = frozenset({10, 20, 30, 40, 'a'})
+
+
+fs.add(70)
+# s1.clear()
+# s5 = s1.copy()
+# print(s1.difference(s2))
+# s1.difference_update(s2)
+# s1.intersection_update(s2)
+# print(s1.isdisjoint(s3))
+# print(s3.issubset(s2))
+# print(s2.issuperset(s3))
+# s1.pop()
+# s1.remove(40)
+# print(s1.symmetric_difference(s2))
+# s1.symmetric_difference_update(s2)
+# print(s1.union(s2))
+# s1.update({70, 80, 90})
+
+print(fs)
