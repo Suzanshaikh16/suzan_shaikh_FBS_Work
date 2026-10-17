@@ -1,0 +1,12 @@
+def fibonacci(limit):
+    a = 0
+    b = 1
+
+    while a <= limit:
+        yield a
+        a, b = b, a + b
+
+limit = int(input("Enter the limit: "))
+
+for i in fibonacci(limit):
+    print(i)
