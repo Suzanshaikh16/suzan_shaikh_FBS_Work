@@ -1,0 +1,36 @@
+import tkinter as tk
+r=tk.Tk()
+r.title("GUI Application")
+r.geometry("500x400")
+
+l1=tk.Label(r,text="This is my First GUI App",bg="Yellow",fg="Blue",font=("Comic sons ms",18))
+l1=tk.Label(r,text="First",bg="Yellow",fg="Blue",font=("Comic sons ms",18))
+l2=tk.Label(r,text="Second",bg="Yellow",fg="Blue",font=("Comic sons ms",18))
+l3=tk.Label(r,text="THird",bg="Yellow",fg="Blue",font=("Comic sons ms",18))
+l4=tk.Label(r,text="Fourth",bg="Yellow",fg="Blue",font=("Comic sons ms",18))
+# l1.pack(side="top")
+# l2.pack(side="bottom")
+# l3.pack(side="right")
+# l4.pack(side="left")
+# tk.Label(r,text="Enter your name").pack()
+e=tk.Entry(r)
+#e.insert(O"Enter your name:-")
+# e.pack()
+# l2=tk.Label(r,text="Second",bg="Yellow",fg="Blue",font=("Comic sons ms",18)).pack()
+# l2.pack()
+def show():
+    r=e.get()
+    print(r)
+    l2.config(text=r)
+btn=tk.Button(r,text="Submit",command=show)
+# btn.pack()
+
+tk.Label(r,text="First",bg="Yellow",fg="Blue",font=("Comic sons ms",18)).grid(row=1,column=1)
+tk.Label(r,text="Second",bg="Yellow",fg="Blue",font=("Comic sons ms",18)).grid(row=2,column=1)
+tk.Label(r,text="Third",bg="Yellow",fg="Blue",font=("Comic sons ms",18)).grid(row=2,column=2)
+
+tk.Label(r,text="First",bg="Yellow",fg="Blue",font=("Comic sons ms",18)).place(x=40,y=30)
+tk.Label(r,text="Second",bg="Yellow",fg="Blue",font=("Comic sons ms",18)).place(x=140,column=1)
+tk.Label(r,text="Third",bg="Yellow",fg="Blue",font=("Comic sons ms",18)).place(x=96,column=89)
+gender=tk.Tk
+r.mainloop()
