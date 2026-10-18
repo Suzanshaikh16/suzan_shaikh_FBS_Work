@@ -1,2 +1,0 @@
-class Emp:
-    def
