@@ -1,3 +1,4 @@
 a=10
-a1=90
-first=int(input('enter:'))
+b=int(input('enter variable: '))
+print(a)
+print(b)
